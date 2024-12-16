@@ -116,6 +116,7 @@ fun SecondScreen(onBack: () -> Unit) {
     ) {
         Button(onClick = { onBack() }) {
             Text(text = "返回畫面1")
+            //
         }
     }
 }
